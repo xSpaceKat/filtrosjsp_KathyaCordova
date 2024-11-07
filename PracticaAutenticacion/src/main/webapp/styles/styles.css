@@ -1,0 +1,60 @@
+/* 
+    Created on : 7 nov 2024, 12:08:06
+    Author     : Katt
+*/
+
+*{
+    background-color: #ccffcc;
+    color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font: sans-serif;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+h2{
+    font: sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 10rem;
+    margin: 1rem;
+    padding: 1rem;
+    font-weight: bolder;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form{
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    margin-bottom: 5px;
+    display: block;
+    color: #333333;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
